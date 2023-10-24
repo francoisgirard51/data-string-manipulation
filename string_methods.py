@@ -60,4 +60,4 @@ def full_description_formatting(first_name, last_name, age):
      the age using string interpolation
     example: full_description_formatting("john", "doe", 33) => "John Doe is 33"
     """
-    return '{} {} is {}'.format(first_name.capitalize(), last_name.capitalize(), age)
+    return f'{first_name.capitalize()} {last_name.capitalize()} is {age}'
